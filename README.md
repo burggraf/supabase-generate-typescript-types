@@ -15,12 +15,12 @@ Change the following tokens in the [`config.json`](./config.json) file:
   - this is the password you entered when you created your project
   
  ## Step 2: (OPTIONAL) edit the `template.handlebars` file
- If you'd like to customize the output, the `template.handlebars` file is just a standard [Handlebars](https://handlebarsjs.com/) template that you can modify.
+ If you'd like to customize the output, the [`template.handlebars`](./template.handlebars) file is just a standard [Handlebars](https://handlebarsjs.com/) template that you can modify.
  
  ## Step 3: Generate your models
  From the command line run:
  `./generateModels.sh`
  
  ## Step 4: Use your generated types
- The output file `Database.ts` can be copied to your project and imported into your Typescript project.  Optionally, you can edit the `folder` entry in your `config.json` file to have the file automatically generated in a specific folder of your project.
+ The output file `Database.ts` can be copied to your project and imported into your Typescript project.  Optionally, you can edit the `folder` entry in your [`config.json`](./config.json) file to have the file automatically generated in a specific folder of your project.
  
