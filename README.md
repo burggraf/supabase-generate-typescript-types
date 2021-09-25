@@ -20,6 +20,8 @@ Change the following tokens in the [`config.json`](./config.json) file:
  ## Step 3: Generate your models
  From the command line run:
  [`./generateModels.sh`](./generateModels.sh)
+
+NOTE:  this script simply runs the following command line: `npx @rmp135/sql-ts -c ./config.json`
  
  ## Step 4: Use your generated types
  The output file `Database.ts` can be copied to your project and imported into your Typescript project.  Optionally, you can edit the `folder` entry in your [`config.json`](./config.json) file to have the file automatically generated in a specific folder of your project.
