@@ -11,6 +11,7 @@ Change the following tokens in the [`config.json`](./config.json) file:
   - go to your Supabase project dashboard at https://app.supabase.io
   - go to Settings / Database / scroll down to Host
   - copy the Host name and paste it over `DATABASE_DOMAIN_HERE`
+  - example Host name:  `db.xyzxyzxyzxyzxyzxyzxy.supabase.co`
 - `DATABASE_PASSWORD_HERE`
   - this is the password you entered when you created your project
   
