@@ -1,0 +1,15 @@
+{
+  "name": "supabase-generate-typescript-types",
+  "version": "1.0.0",
+  "description": "Generate typescript types for your Supabase project",
+  "main": "generateModels.sh",
+  "scripts": {
+    "start": "sh ./generateModels.sh"
+  },
+  "author": "Mark Burggraf",
+  "license": "ISC",
+  "dependencies": {
+    "@rmp135/sql-ts": "^1.10.0",
+    "pg": "^8.7.1"
+  }
+}
