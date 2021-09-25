@@ -5,7 +5,7 @@ Generate typescript types for your Supabase project
 Run `npm install`
 
 ## Step 1: modify the `config.json` file
-Change the following tokens in the `config.json` file:
+Change the following tokens in the [`config.json`](./config.json) file:
 
 - `DATABASE_DOMAIN_HERE`
   - go to your Supabase project dashboard at https://app.supabase.io
