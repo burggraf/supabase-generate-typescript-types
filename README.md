@@ -1,6 +1,9 @@
 # supabase-generate-typescript-types
 Generate typescript types for your Supabase project
 
+## Step 0: npm install
+Run `npm install`
+
 ## Step 1: modify the `config.json` file
 Change the following tokens in the `config.json` file:
 
